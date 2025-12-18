@@ -1,9 +1,9 @@
 name: miaoguojing1997
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 4/6 * * *'
+    - cron: '0 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: miaoguojing1997
         env:
-          xwl1: ${{ secrets.xwl1 }}
+          fz884: ${{ secrets.fz884 }}
         run: |
-          echo $xwl1 | jq -r .kd54 | /bin/bash
-          echo $lsg1 | jq -r .rrb45 | /bin/bash
-          echo $x0 | jq -r .cdbsk661 | /bin/bash
-          echo $oczc2 | jq -r .twjot5 | /bin/bash
-          echo $hs821 | jq -r .eiuf1499 | /bin/bash
-          echo $ol12743 | jq -r .tje8190 | /bin/bash
+          echo $fz884 | jq -r .ebp9 | /bin/bash
+          echo $flgo881 | jq -r .rugoi6607 | /bin/bash
+          echo $bcaha014 | jq -r .t5696 | /bin/bash
+          echo $ybnlj68335 | jq -r .zy766 | /bin/bash
+          echo $dog3432 | jq -r .x88 | /bin/bash
+          echo $r6 | jq -r .apgf425 | /bin/bash
+          echo $sfve946 | jq -r .voxnc19 | /bin/bash
+          echo $f5 | jq -r .xe7 | /bin/bash
+          echo $uuuaa978 | jq -r .uc0428 | /bin/bash
 
